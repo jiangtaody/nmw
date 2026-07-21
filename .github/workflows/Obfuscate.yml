@@ -18,7 +18,7 @@ jobs:
       - name: 初始化仓库
         uses: actions/checkout@v4
         with:
-          node-version: '24'
+          using: 'node24'
 
       - name: 获取当前本地版本
         id: get_local_version
